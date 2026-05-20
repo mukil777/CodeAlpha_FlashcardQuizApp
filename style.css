@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card {
+    background: #e8f0fe;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#question {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#answer {
+    margin-top: 10px;
+    color: green;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    padding: 8px 14px;
+    margin: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+}
